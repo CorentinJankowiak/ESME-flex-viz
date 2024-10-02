@@ -20,7 +20,7 @@ class App():
         st.title("ESME-flex results visualiser")
 
         self.initial_dir = os.getcwd()
-        os.chdir("..")
+        #os.chdir("..")
         self.root_dir = os.getcwd()
         os.chdir("results")
         self.res_dir = os.getcwd()
