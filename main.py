@@ -6,11 +6,11 @@ import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 from pathlib import Path
 import os
-os.chdir("..")
-root_dir = os.getcwd()
-print(root_dir)
+#os.chdir("..")
+#root_dir = os.getcwd()
+#print(root_dir)
 from results_plots import *
-os.chdir("results")
+#os.chdir("results")
 
 # %%
 
